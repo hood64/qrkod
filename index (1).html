@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Riskbedömning – Kemikalier</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2em; background: #f9f9f9; }
+        h1 { text-align: center; }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: #fff;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #eee;
+        }
+        tr:nth-child(even) { background-color: #f2f2f2; }
+        @media (max-width: 600px) {
+            table, thead, tbody, th, td, tr {
+                display: block;
+            }
+            th { position: sticky; top: 0; background: #ddd; }
+            td { margin-bottom: 10px; }
+        }
+    </style>
+</head>
+<body>
+
+<h1>Riskbedömning – Kemikalier</h1>
+<input type="text" id="searchInput" placeholder="Sök produkt, risk eller kommentar...">
+
+<table id="riskTable">
+    <thead>
+        <tr>
+            <th>Produktnamn</th>
+            <th>Artikelnummer</th>
+            <th>Aktivitet</th>
+            <th>Risker</th>
+            <th>Skyddsutrustning</th>
+            <th>Frekvens</th>
+            <th>Kommentar</th>
+        </tr>
+    </thead>
+    <tbody>
+<tr><td>4CR 0610 Silikonentferner</td><td>i388209</td><td>Allmän hantering i verkstadsmiljö.</td><td>Innehåller lösningsmedel som kan orsaka hudirritation och ögonskador. Ångor kan orsaka yrsel och påverka nervsystemet vid dålig ventilation. Produkten är brandfarlig.</td><td>Skyddshandskar vid kontakt, glasögon vid risk för stänk.</td><td>Sporadiskt eller enligt behov</td><td>Ska användas med god ventilation och godkända skyddshandskar. Förvaras åtskilt från antändningskällor. Se SDB för fullständig information.</td></tr>
+<tr><td>Ajax Bathroom B02982420002</td><td>i405315</td><td>Allmän hantering i verkstadsmiljö.</td><td>Innehåller tensider och syror som kan orsaka ögon- och hudirritation. Långvarig exponering kan påverka andningsvägarna.</td><td>Skyddshandskar vid kontakt, glasögon vid risk för stänk.</td><td>Sporadiskt eller enligt behov</td><td>Används främst vid städning. Skyddshandskar och ögonskydd rekommenderas. Produkten förvaras i originalförpackning enligt rutin.</td></tr>
+<tr><td>Akrylatbensin 2 takt</td><td>i212526</td><td>Påfyllning eller rengöring av metall-/maskindelar.</td><td>Brandfara, lösningsmedelsångor, hud- och ögonirritation.</td><td>Skyddshandskar, skyddsglasögon, god ventilation.</td><td>Sporadiskt eller enligt behov</td><td>Riskbedömning enligt brandfarlig vätska – kontrollera H-fraser.</td></tr>
+<tr><td>ARCTIC ORANGE</td><td>i382799</td><td>Allmän hantering i verkstadsmiljö.</td><td>Kan innehålla frätande eller starkt irriterande ämnen. Risk för hud- och ögonirritation samt inandning av ångor.</td><td>Skyddshandskar vid kontakt, glasögon vid risk för stänk.</td><td>Sporadiskt eller enligt behov</td><td>Doftsatt rengöringsmedel. Kontrollera SDB för exakta ämnen. Använd lämplig skyddsutrustning och arbeta i ventilerat utrymme.</td></tr>
+<tr><td>Armor All Ultra Shine Protectant High Gloss</td><td>i214781</td><td>Allmän hantering i verkstadsmiljö.</td><td>Kan orsaka irritation vid långvarig kontakt med hud. Ångor kan vara lätt irriterande.</td><td>Skyddshandskar vid kontakt, glasögon vid risk för stänk.</td><td>Sporadiskt eller enligt behov</td><td>Används för kosmetisk behandling av plast och gummi i fordon. Torka av överskott och undvik inandning vid sprayning.</td></tr>
+<tr><td>Autocoat BT MM 290</td><td>i203915</td><td>Påfyllning eller rengöring av metall-/maskindelar.</td><td>Brandfara, lösningsmedelsångor, hud- och ögonirritation.</td><td>Skyddshandskar, skyddsglasögon, god ventilation.</td><td>Sporadiskt eller enligt behov</td><td>Riskbedömning enligt brandfarlig vätska – kontrollera H-fraser.</td></tr>
+<tr><td>BENCO 14 (Förtunning Un 1263)</td><td>i24871</td><td>Påfyllning eller rengöring av metall-/maskindelar.</td><td>Brandfara, lösningsmedelsångor, hud- och ögonirritation.</td><td>Skyddshandskar, skyddsglasögon, god ventilation.</td><td>Sporadiskt eller enligt behov</td><td>Riskbedömning enligt brandfarlig vätska – kontrollera H-fraser.</td></tr>
+<tr><td>Cif Professional Washroom</td><td>i19648</td><td>Rengöring av ytor eller händer.</td><td>Mild hudirritation vid frekvent användning.</td><td>Skyddshandskar vid långvarig kontakt</td><td>Dagligen</td><td>Låg risk – ingen ytterligare skyddsutrustning krävs vid normalt bruk.</td></tr>
+<tr><td>CO 800 / Cutting Oil 400ml</td><td>i320455</td><td>Allmän hantering i verkstadsmiljö.</td><td>Hudirriterande vid långvarig exponering. Risk för inandning av oljedimma vid maskinbearbetning.</td><td>Skyddshandskar vid kontakt, glasögon vid risk för stänk.</td><td>Sporadiskt eller enligt behov</td><td>Skärvätska i aerosolform. Används i verkstadsmiljö – säkerställ god ventilation och använd skyddshandskar vid kontakt.</td></tr>
+<tr><td>Cortec VpCI-368 Spray</td><td>i29594</td><td>Smörjning eller ytbehandling med sprayflaska.</td><td>Inandning av dimma, trycksatt behållare, brandrisk.</td><td>Skyddsglasögon, andningsskydd vid dålig ventilation.</td><td>Sporadiskt</td><td>Riskbedömning enligt aerosol – kontrollera ventilationsbehov.</td></tr>
+<tr><td>DIRECT TO RUST METAL PAINT SMOOTH BLACK</td><td>i366014</td><td>Allmän hantering i verkstadsmiljö.</td><td>Innehåller lösningsmedel som kan orsaka irritation i hud, ögon och andningsvägar. Brandfarlig. Långvarig exponering kan påverka centrala nervsystemet.</td><td>Skyddshandskar vid kontakt, glasögon vid risk för stänk.</td><td>Sporadiskt eller enligt behov</td><td>Används för direktmålning på rostigt stål. Arbeta i ventilerade utrymmen och använd andningsskydd vid sprutmålning.</td></tr>
+<tr><td>Ekofekt Byggtvål</td><td>i92473</td><td>Rengöring av ytor eller händer.</td><td>Mild hudirritation vid frekvent användning.</td><td>Skyddshandskar vid långvarig kontakt</td><td>Dagligen</td><td>Låg risk – ingen ytterligare skyddsutrustning krävs vid normalt bruk.</td></tr>
+<tr><td>GLIDEX EXTRA II</td><td>i208357</td><td>Allmän hantering i verkstadsmiljö.</td><td>Vanligtvis lågtoxisk men kan orsaka mild hud- och ögonirritation vid kontakt. Inandning av ånga vid höga temperaturer kan irritera luftvägarna.</td><td>Skyddshandskar vid kontakt, glasögon vid risk för stänk.</td><td>Sporadiskt eller enligt behov</td><td>Smörjmedel för montering av t.ex. rördelar. Skölj bort vid spill – kan göra golv hala.</td></tr>
+<tr><td>Graphit / Naturlig grafit</td><td>i425618</td><td>Allmän hantering i verkstadsmiljö.</td><td>Grafit i dammform kan orsaka mekanisk irritation i ögon och luftvägar. Ej klassificerat som hälsofarligt vid normal användning.</td><td>Skyddshandskar vid kontakt, glasögon vid risk för stänk.</td><td>Sporadiskt eller enligt behov</td><td>Hanteras i pulverform. Används i torra smörjsituationer eller som tillsats. Undvik dammbildning och använd punktutsug vid överföring.</td></tr>
+<tr><td>Grumme Såpa Grön</td><td>i9755</td><td>Rengöring av ytor eller händer.</td><td>Mild hudirritation vid frekvent användning.</td><td>Skyddshandskar vid långvarig kontakt</td><td>Veckovis</td><td>Låg risk – ingen ytterligare skyddsutrustning krävs vid normalt bruk.</td></tr>
+<tr><td>HDHC NATURAL</td><td>i203430</td><td>Allmän hantering i verkstadsmiljö.</td><td>Hudirriterande vid upprepad kontakt. Kan orsaka ögonirritation. Biologiskt nedbrytbar men bör inte släppas ut i avlopp i större mängd.</td><td>Skyddshandskar vid kontakt, glasögon vid risk för stänk.</td><td>Sporadiskt eller enligt behov</td><td>Miljöanpassad avfettningsprodukt. Vanlig inom fordonsrengöring. Använd handskar och skyddsglasögon vid arbete.</td></tr>
+<tr><td>High Tech Anti Spatter Aerosol</td><td>i6645</td><td>Smörjning eller ytbehandling med sprayflaska.</td><td>Inandning av dimma, trycksatt behållare, brandrisk.</td><td>Skyddsglasögon, andningsskydd vid dålig ventilation.</td><td>Sporadiskt</td><td>Riskbedömning enligt aerosol – kontrollera ventilationsbehov.</td></tr>
+<tr><td>Hydroscand LX High Temp EP2</td><td>i28338</td><td>Allmän hantering i verkstadsmiljö.</td><td>Låg akut toxicitet. Långvarig hudkontakt kan orsaka irritation. Inandning av oljedimma bör undvikas.</td><td>Skyddshandskar vid kontakt, glasögon vid risk för stänk.</td><td>Sporadiskt eller enligt behov</td><td>Högtemperatursmörjfett. Vanlig i industriella applikationer. Tvätta huden noggrant efter kontakt.</td></tr>
+<tr><td>ICA SKONA GLAS- og FÖNSTERPUTS PARFYMFRI 750 ml (FP0233) EAN7318690154969</td><td>i265704</td><td>Vid diskning i personalmatsalen.</td><td>Risk för ögonskada vid stänk – särskilt koncentrat.</td><td>Skyddshandskar</td><td>Sporadiskt eller enligt behov</td><td>Riskbedömning som är relevant för produkten.</td></tr>
+<tr><td>KEMETYL T BATTERIVATTEN</td><td>i271521</td><td>Allmän hantering i verkstadsmiljö.</td><td>Ej klassificerat som farligt, men kan orsaka viss irritation vid kontakt med ögon eller slemhinnor</td><td>Skyddshandskar vid kontakt, glasögon vid risk för stänk.</td><td>Sporadiskt eller enligt behov</td><td>Används för påfyllning i batterier. Endast avsett för teknisk användning – ska inte förtäras. Använd skyddsglasögon vid risk för stänk.</td></tr>
+<tr><td>KEMETYL T-BLÅ SPOLARVÄTSKA FÄRDIGBLANDAD -18C</td><td>i115678</td><td>Allmän hantering i verkstadsmiljö.</td><td>Innehåller etanol – brandfarlig vätska. Irriterar ögon och kan vara skadlig vid förtäring.</td><td>Skyddshandskar vid kontakt, glasögon vid risk för stänk.</td><td>Sporadiskt eller enligt behov</td><td>Används i fordon för frostskydd. Förvaras åtskilt från antändningskällor. Håll barn borta från produkten.</td></tr>
+<tr><td>Lahega Glykol BS 6580</td><td>i7416</td><td>Smörjning eller påfyllning av maskinkomponenter.</td><td>Hudkontakt, spill, brandfara vid hög temperatur.</td><td>Skyddshandskar, torkpapper vid spill</td><td>Veckovis</td><td>Enklare hantering – kontrollera om produkten har H-fraser.</td></tr>
+<tr><td>LOCTITE 2701</td><td>i9225</td><td>Allmän hantering i verkstadsmiljö.</td><td>Orsakar hud- och ögonirritation. Kan orsaka allergisk hudreaktion. Skadlig vid förtäring.</td><td>Skyddshandskar vid kontakt, glasögon vid risk för stänk.</td><td>Sporadiskt eller enligt behov</td><td>Anaerobt lim för gänglåsning. Använd nitrilhandskar och undvik kontakt med ögon och hud.</td></tr>
+<tr><td>Loctite SG Pure Gel</td><td>i115964</td><td>Allmän hantering i verkstadsmiljö.</td><td>Kan orsaka irritation i ögon, hud och luftvägar. Cyanoakrylat – fäster snabbt på hud och ögon.</td><td>Skyddshandskar vid kontakt, glasögon vid risk för stänk.</td><td>Sporadiskt eller enligt behov</td><td>Snabblim som kräver noggrann hantering. Använd skyddshandskar och arbeta varsamt för att undvika hudkontakt.</td></tr>
+<tr><td>MOTIP CLEAR VARNISH HIGH GLOSS / MATT 500 ML</td><td>i425594</td><td>Allmän hantering i verkstadsmiljö.</td><td>Extremt brandfarlig aerosol. Kan orsaka dåsighet eller yrsel. Irriterar ögon och hud.</td><td>Skyddshandskar vid kontakt, glasögon vid risk för stänk.</td><td>Sporadiskt eller enligt behov</td><td>Klarlack på sprayburk. Används i välventilerat utrymme, gärna med punktutsug. Undvik gnistor och öppen låga.</td></tr>
+<tr><td>MPM Hydraulic Oil HVI 46</td><td>i260034</td><td>Smörjning eller påfyllning av maskinkomponenter.</td><td>Hudkontakt, spill, brandfara vid hög temperatur.</td><td>Skyddshandskar, torkpapper vid spill</td><td>Veckovis</td><td>Enklare hantering – kontrollera om produkten har H-fraser.</td></tr>
+<tr><td>Mr Muscle Propplösare för kök</td><td>i78478</td><td>Allmän hantering i verkstadsmiljö.</td><td>Frätande. Orsakar allvarliga frätskador på hud och ögon. Farligt vid inandning eller förtäring.</td><td>Skyddshandskar vid kontakt, glasögon vid risk för stänk.</td><td>Sporadiskt eller enligt behov</td><td>Används vid rengöring av avlopp. Får ej blandas med andra rengöringsmedel. Använd skyddsglasögon, handskar och arbeta under punktutsug vid spill.</td></tr>
+<tr><td>Plum Ögonsköljning</td><td>i34083</td><td>Allmän hantering i verkstadsmiljö.</td><td>Ej klassificerad som farlig kemikalie. Innehåller steril koksaltlösning.</td><td>Skyddshandskar vid kontakt, glasögon vid risk för stänk.</td><td>Sporadiskt eller enligt behov</td><td>Avsedd för akut ögonsköljning vid kemikalieolyckor. Produkten ska vara lättillgänglig nära arbetsplatsen. Kontrollera utgångsdatum regelbundet.</td></tr>
+<tr><td>PROFESSIONAL TRADITIONAL METAL PRIMER RED</td><td>i116122</td><td>Allmän hantering i verkstadsmiljö.</td><td>Innehåller lösningsmedel. Brandfarlig vätska. Irriterar hud, ögon och luftvägar. Farlig vid inandning av ångor.</td><td>Skyddshandskar vid kontakt, glasögon vid risk för stänk.</td><td>Sporadiskt eller enligt behov</td><td>Används som rostskyddsgrundfärg. Bäst effekt uppnås i god ventilation och med skyddsutrustning, särskilt vid sprutmålning.</td></tr>
+<tr><td>SikaCim Betonglim</td><td>i32600</td><td>Allmän hantering i verkstadsmiljö.</td><td>Kan orsaka hud- och ögonirritation. Innehåller ämnen som kan orsaka allergisk reaktion.</td><td>Skyddshandskar vid kontakt, glasögon vid risk för stänk.</td><td>Sporadiskt eller enligt behov</td><td>Cementbaserat tillsatsmedel. Används i byggmiljöer – undvik hudkontakt. Handskar och skyddsglasögon rekommenderas.</td></tr>
+<tr><td>SONAX Flytande rubbing</td><td>i7820</td><td>Allmän hantering i verkstadsmiljö.</td><td>Kan orsaka hud- och ögonirritation. Låg brandrisk men innehåller slipande partiklar som kan verka irriterande.</td><td>Skyddshandskar vid kontakt, glasögon vid risk för stänk.</td><td>Sporadiskt eller enligt behov</td><td>Används vid polering av lackerade ytor. Undvik att andas in partiklar vid maskinell användning – använd andningsskydd vid behov.</td></tr>
+<tr><td>SONAX GLANSSCHAMPO KONCENTRAT</td><td>i398367</td><td>Allmän hantering i verkstadsmiljö.</td><td>Irriterar ögon. Låg risk vid normal användning, men bör inte förtäras.</td><td>Skyddshandskar vid kontakt, glasögon vid risk för stänk.</td><td>Sporadiskt eller enligt behov</td><td>Bilschampo som späds i vatten. Använd skyddsglasögon vid risk för stänk. Förvaras oåtkomligt för barn.</td></tr>
+<tr><td>Sprayfärg</td><td>i425644</td><td>Smörjning eller ytbehandling med sprayflaska.</td><td>Inandning av dimma, trycksatt behållare, brandrisk.</td><td>Skyddsglasögon, andningsskydd vid dålig ventilation.</td><td>Sporadiskt</td><td>Riskbedömning enligt aerosol – kontrollera ventilationsbehov.</td></tr>
+<tr><td>STARTA Metallbearbetningsvätska</td><td>i21694</td><td>Allmän hantering i verkstadsmiljö.</td><td>Långvarig hudkontakt kan ge irritation. Inandning av dimma kan irritera luftvägarna. Kan innehålla biocider.</td><td>Skyddshandskar vid kontakt, glasögon vid risk för stänk.</td><td>Sporadiskt eller enligt behov</td><td>Används som kylsmörjmedel vid skärande bearbetning. Undvik hudkontakt och säkerställ god ventilation.</td></tr>
+<tr><td>STARTA Spolarvätska, Koncentrerad</td><td>i15139</td><td>Allmän hantering i verkstadsmiljö.</td><td>Mycket brandfarlig vätska. Kan ge irritation i ögon och luftvägar. Förtäring kan orsaka allvarlig skada.</td><td>Skyddshandskar vid kontakt, glasögon vid risk för stänk.</td><td>Sporadiskt eller enligt behov</td><td>Ska spädas före användning. Förvaras i originalförpackning, åtskilt från värmekällor. Märkning enligt gällande rutiner.</td></tr>
+<tr><td>Stensalt Livsmedel</td><td>i38858</td><td>Allmän hantering i verkstadsmiljö.</td><td>Ej klassificerad som farlig. Damm kan orsaka irritation i ögon och luftvägar.</td><td>Skyddshandskar vid kontakt, glasögon vid risk för stänk.</td><td>Sporadiskt eller enligt behov</td><td>Används vid halkbekämpning. Förvaras torrt. Vid större mängder hanteras dammbildning med punktutsug.</td></tr>
+<tr><td>TEKNOLAC 0191 - Alla varianter</td><td>i6198</td><td>Allmän hantering i verkstadsmiljö.</td><td>Innehåller lösningsmedel. Brandfarlig vätska. Irriterar hud, ögon och andningsvägar. Risk för påverkan på CNS vid långvarig exponering.</td><td>Skyddshandskar vid kontakt, glasögon vid risk för stänk.</td><td>Sporadiskt eller enligt behov</td><td>Används som industrifärg. Används i ventilerat utrymme, undvik hudkontakt och andas inte in ångor. Märkning och hantering enligt SDB.</td></tr>
+<tr><td>WD-40 MULTI-USE PRODUCT - [Aerosol]</td><td>i6873</td><td>Smörjning eller ytbehandling med sprayflaska.</td><td>Inandning av dimma, trycksatt behållare, brandrisk.</td><td>Skyddsglasögon, andningsskydd vid dålig ventilation.</td><td>Sporadiskt</td><td>Riskbedömning enligt aerosol – kontrollera ventilationsbehov.</td></tr>
+<tr><td>WD-40 Specialist High-Performance Lubricant / WD-40 Specialist Högpresterande Smörjmedel</td><td>i162582</td><td>Smörjning eller ytbehandling med sprayflaska.</td><td>Inandning av dimma, trycksatt behållare, brandrisk.</td><td>Skyddsglasögon, andningsskydd vid dålig ventilation.</td><td>Sporadiskt</td><td>Riskbedömning enligt aerosol – kontrollera ventilationsbehov.</td></tr>
+<tr><td>YES PLATINUM</td><td>i171150</td><td>Vid diskning i personalmatsalen.</td><td>Risk för ögonskada vid stänk – särskilt koncentrat.</td><td>Skyddshandskar</td><td>Sporadiskt eller enligt behov</td><td>Riskbedömning som är relevant för produkten.</td></tr>
+
+    </tbody>
+</table>
+
+<script>
+document.getElementById('searchInput').addEventListener('keyup', function () {
+    let filter = this.value.toLowerCase();
+    let rows = document.querySelectorAll("#riskTable tbody tr");
+    rows.forEach(row => {
+        let text = row.innerText.toLowerCase();
+        row.style.display = text.includes(filter) ? "" : "none";
+    });
+});
+</script>
+
+</body>
+</html>
